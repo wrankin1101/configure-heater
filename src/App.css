@@ -1,0 +1,101 @@
+.row {
+  transition: all 1s;
+}
+
+#configWrapper {
+  max-width: 540px;
+}
+.box {
+  border: 1px black solid;
+  border-radius: 5px;
+}
+.box h3{
+  border-bottom: 1px solid black;
+  padding:10px;
+  font-size: large;
+}
+.configTitle{
+  text-align: right;
+  font-size: medium;
+}
+.configTitle h5{
+  font-size: 1.1rem;
+  margin: 8px 0px 0px 0px;
+}
+
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+
+.infoRow hr{
+  margin:5px;
+}
+.infoRow h5{
+  display: inline-block;
+}
+.spinner{
+  width:90px;
+  display: inline-block;
+}
+.infoPic{
+  width:100%;
+}
+
+#verticalRange {
+  width:132px;
+  transform: rotate(90deg);
+  transform-origin: left;
+}
+#lengthRange {
+  width:300px;
+}
+#diamRange {
+  width:132px;
+}
+#verticalCol {
+  height:132px;
+}
+#heaterIllustration{
+  width:300px;
+  height:132px;
+  margin-top:10px;
+}
+#diamIllustration{
+  width:132px;
+  height:132px;
+  margin-top:10px;
+}
+#dimDiv 
+{
+    background-image:url("/public/images/SRtexture.png");
+    background-repeat:repeat;
+    border: 1px solid #c62f24;
+    float: left;
+}
+#diamDiv 
+{
+    background-image:url("/public/images/SRtexture.png");
+    background-repeat:repeat;
+    border: 1px solid #c62f24;
+    float: left;
+}
+
+.hidden {
+  max-height: 0;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.hidden.show {
+  max-height: inherit; /* Set this to an appropriate value */
+  opacity: 1;
+}
+
