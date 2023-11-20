@@ -1,0 +1,79 @@
+#dimDiv 
+{
+    background-image:url("/web/20160513091336im_/http://www.oemheaters.com/Configurators/configPictures/SR/SRtexture.png");
+    background-repeat:repeat;
+    border: 1px solid #c62f24;
+    float: left;
+}
+/* label, input[type="text"]
+{
+	float:left;
+	display:block; */
+}
+.mylabel label
+{
+	width:120px;
+}
+.nolabel label
+{
+    float: none;
+    width:auto;
+    text-align:left;
+    padding-right:0;
+    padding-top:0;
+    display:inline;
+}
+.infoDiv
+{
+    max-width:375px;
+    margin-top:10px;
+    overflow:hidden;
+}
+.infoImg 
+{
+    white-space:nowrap;
+    display:inline;
+    float:left;
+    height:125px;
+    width:45%;
+}
+.infoImg img
+{
+    vertical-align:middle;
+    max-height:100%;
+    max-width:100%;
+}
+.alignHelp
+{
+    display: inline-block;
+    vertical-align:middle;
+    height: 100%;
+}
+.infoDesc 
+{
+    float:right;
+    text-align: left;
+    padding-left:0px;
+    font-size: 10pt;
+    width:45%;
+}
+/*
+     FILE ARCHIVED ON 09:13:36 May 13, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:03:27 Nov 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 191.769
+  exclusion.robots: 0.067
+  exclusion.robots.policy: 0.059
+  cdx.remote: 0.057
+  esindex: 0.009
+  LoadShardBlock: 156.217 (3)
+  PetaboxLoader3.resolve: 149.469 (4)
+  PetaboxLoader3.datanode: 53.64 (4)
+  load_resource: 60.463
+*/

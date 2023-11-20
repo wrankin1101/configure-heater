@@ -1,38 +1,101 @@
-.App {
+.row {
+  transition: all 1s;
+}
+
+#configWrapper {
+  max-width: 540px;
+}
+.box {
+  border: 1px black solid;
+  border-radius: 5px;
+}
+.box h3{
+  border-bottom: 1px solid black;
+  padding:10px;
+  font-size: large;
+}
+.configTitle{
+  text-align: right;
+  font-size: medium;
+}
+.configTitle h5{
+  font-size: 1.1rem;
+  margin: 8px 0px 0px 0px;
+}
+
+.right{
+  text-align: right;
+}
+.center{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bold {
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.infoRow hr{
+  margin:5px;
+}
+.infoRow h5{
+  display: inline-block;
+}
+.spinner{
+  width:90px;
+  display: inline-block;
+}
+.infoPic{
+  width:100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#verticalRange {
+  width:132px;
+  transform: rotate(90deg);
+  transform-origin: left;
+}
+#lengthRange {
+  width:300px;
+}
+#diamRange {
+  width:132px;
+}
+#verticalCol {
+  height:132px;
+}
+#heaterIllustration{
+  width:300px;
+  height:132px;
+  margin-top:10px;
+}
+#diamIllustration{
+  width:132px;
+  height:132px;
+  margin-top:10px;
+}
+#dimDiv 
+{
+    background-image:url("/public/images/SRtexture.png");
+    background-repeat:repeat;
+    border: 1px solid #c62f24;
+    float: left;
+}
+#diamDiv 
+{
+    background-image:url("/public/images/SRtexture.png");
+    background-repeat:repeat;
+    border: 1px solid #c62f24;
+    float: left;
 }
 
-.App-link {
-  color: #61dafb;
+.hidden {
+  max-height: 0;
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  transition: opacity 1s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hidden.show {
+  max-height: inherit; /* Set this to an appropriate value */
+  opacity: 1;
 }
+

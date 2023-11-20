@@ -1,0 +1,128 @@
+	#configWrapper .ui-spinner-input{
+		background:none;
+		border:none;
+		width:auto;
+		box-shadow:none;
+		padding: .2em 22px .2em .4em;
+        margin: 0px;
+	}
+	#configWrapper input[type=text]:not(.ui-spinner-input){
+		padding: .2em .4em .2em .4em;
+	}
+	#configWrapper .ui-spinner
+    {
+        margin-bottom : 3px;
+    }
+	#configWrapper label{
+		font-size:1em;
+		cursor: pointer;
+		font-weight:normal;
+	}
+	
+	#configWrapper a, .orange{
+		-webkit-transition:none;
+	}
+	#configWrapper select {
+		width: auto;
+		cursor:pointer;
+		padding:2px;
+		display:inline-block;
+	}
+	#configWrapper {
+		width: auto;
+		max-width:600px;
+	}
+	.configTopic 
+	{
+	    max-width:100%;
+	    margin-bottom:20px;
+	}
+	#configWrapper input[type="checkbox"]{
+		margin: 10px 0 0 0;
+	}
+	#configWrapper p{
+		margin: auto;
+	}
+	@media (max-width: 480px) {
+  		.nav-collapse {
+    		-webkit-transform: none;
+		}
+  	}
+	.configTitle {
+		text-align:right;
+		margin-right: 5px;
+		float:left;
+		margin-top: 4px;
+		-webkit-user-select: none; /* Chrome/Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+	}
+	.radioButton 
+	{
+	    display:inline-block;
+	}
+	.small  
+	{
+   		font-size:10pt;
+	}
+	.floatRight 
+	{
+	    float:right;   
+	}
+	.lineDiv
+	{
+	   	width: 100%;
+	    border-bottom: 1px solid #aaaaaa;
+	}
+	#configWrapper .right {
+		text-align:right;	
+		vertical-align:bottom;
+		float:none;
+	}
+	.center
+	{
+		text-align:center;
+	}
+	.disabled 
+	{
+		color:#D8D8D8;
+	}
+	.ui-state-default:not(.ui-state-active):not(.ui-state-hover) .ui-button-text 
+	{
+		color:#555555;
+	}
+	.ui-button-text
+	{
+	    -webkit-user-select: none; /* Chrome/Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+	}
+	.ui-menu
+	{
+    	display:inline-block;
+	}
+	.infoBubble
+	{
+		width:20px;
+		height:20px;
+	}
+/*
+     FILE ARCHIVED ON 05:49:39 May 13, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:03:28 Nov 07, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 122.118
+  exclusion.robots: 0.087
+  exclusion.robots.policy: 0.077
+  cdx.remote: 0.057
+  esindex: 0.01
+  LoadShardBlock: 91.951 (3)
+  PetaboxLoader3.datanode: 97.061 (4)
+  load_resource: 69.469
+  PetaboxLoader3.resolve: 54.99
+*/
