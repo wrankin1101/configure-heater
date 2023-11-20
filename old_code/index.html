@@ -1,0 +1,935 @@
+<div id="configWrapper" class="nojs ui-widget">
+  <div id="dimen" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+    <h3
+      class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons"
+      role="tab"
+      id="ui-accordion-dimen-header-0"
+      aria-controls="ui-accordion-dimen-panel-0"
+      aria-selected="true"
+      aria-expanded="true"
+      tabindex="0"
+    >
+      <span
+        class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"
+      ></span>
+      <b>Silicone Rubber Heater Configuration</b>
+    </h3>
+    <div
+      class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active"
+      id="ui-accordion-dimen-panel-0"
+      aria-labelledby="ui-accordion-dimen-header-0"
+      role="tabpanel"
+      aria-hidden="false"
+      style="display: block"
+    >
+      <span class="configTitle" style="width: 115px">Shape: </span>
+      <table
+        id="ctl00_PageContent_shapeRadio"
+        class="shapeRadio radioButton ui-buttonset"
+        border="0"
+      >
+        <tbody>
+          <tr>
+            <td>
+              <span id="shapeRect"
+                ><input
+                  id="ctl00_PageContent_shapeRadio_0"
+                  type="radio"
+                  name="ctl00$PageContent$shapeRadio"
+                  value="rect"
+                  checked="checked"
+                  class="ui-helper-hidden-accessible"
+                /><label
+                  for="ctl00_PageContent_shapeRadio_0"
+                  class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left"
+                  role="button"
+                  aria-disabled="false"
+                  ><span class="ui-button-text">Rectangle</span></label
+                ></span
+              >
+            </td>
+            <td>
+              <span id="shapeCircle"
+                ><input
+                  id="ctl00_PageContent_shapeRadio_1"
+                  type="radio"
+                  name="ctl00$PageContent$shapeRadio"
+                  value="circle"
+                  class="ui-helper-hidden-accessible"
+                /><label
+                  for="ctl00_PageContent_shapeRadio_1"
+                  class="ui-button ui-widget ui-state-default ui-button-text-only"
+                  role="button"
+                  aria-disabled="false"
+                  ><span class="ui-button-text">Circle</span></label
+                ></span
+              >
+            </td>
+            <td>
+              <span id="shapeOther"
+                ><input
+                  id="ctl00_PageContent_shapeRadio_2"
+                  type="radio"
+                  name="ctl00$PageContent$shapeRadio"
+                  value="other"
+                  class="ui-helper-hidden-accessible"
+                /><label
+                  for="ctl00_PageContent_shapeRadio_2"
+                  class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+                  role="button"
+                  aria-disabled="false"
+                  ><span class="ui-button-text">Other</span></label
+                ></span
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <div class="mylabel" style="margin-top: 10px">
+        <div class="rectShapeShow" style="display: block">
+          <span class="configTitle" style="width: 115px">Length:</span>
+          <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"
+            ><input
+              name="ctl00$PageContent$lengthSpinner"
+              type="text"
+              id="ctl00_PageContent_lengthSpinner"
+              class="lengthSpinner ui-spinner-input"
+              size="4"
+              maxlength="5"
+              aria-valuemin="1"
+              aria-valuemax="98"
+              autocomplete="off"
+              role="spinbutton"
+              aria-valuenow="1"
+            /><a
+              class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-n">▲</span></span
+              ></a
+            ><a
+              class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-s">▼</span></span
+              ></a
+            ></span
+          >&nbsp;&nbsp;in.
+          <br />
+          <br />
+          <span class="configTitle" style="width: 115px">Width:</span>
+          <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"
+            ><input
+              name="ctl00$PageContent$widthSpinner"
+              type="text"
+              id="ctl00_PageContent_widthSpinner"
+              class="widthSpinner ui-spinner-input"
+              size="4"
+              maxlength="5"
+              aria-valuemin="1"
+              aria-valuemax="38"
+              autocomplete="off"
+              role="spinbutton"
+              aria-valuenow="1"
+            /><a
+              class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-n">▲</span></span
+              ></a
+            ><a
+              class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-s">▼</span></span
+              ></a
+            ></span
+          >&nbsp;&nbsp;in.
+        </div>
+        <div class="circleShapeShow" style="display: none">
+          <span class="configTitle" style="width: 115px">Diameter:</span>
+          <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"
+            ><input
+              name="ctl00$PageContent$diamSpinner"
+              type="text"
+              id="ctl00_PageContent_diamSpinner"
+              class="diamSpinner ui-spinner-input"
+              size="4"
+              maxlength="5"
+              aria-valuemin="1"
+              aria-valuemax="38"
+              autocomplete="off"
+              role="spinbutton"
+              aria-valuenow="1"
+            /><a
+              class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-n">▲</span></span
+              ></a
+            ><a
+              class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-s">▼</span></span
+              ></a
+            ></span
+          >&nbsp;&nbsp;in.
+        </div>
+        <div id="otherShapeDiv" style="display: none">
+          <span class="configTitle" style="width: 115px">&nbsp;</span>
+          <div style="display: table">
+            <input
+              type="file"
+              name="ctl00$PageContent$otherShapeUpload"
+              id="ctl00_PageContent_otherShapeUpload"
+            />
+            <span
+              id="ctl00_PageContent_fileErrorLabel"
+              style="margin-top: 10px; display: block; color: Red"
+            ></span>
+            <br />
+            Please upload a file
+            <img
+              src="/web/20160425055205im_/http://www.oemheaters.com/Configurators/configPictures/ibubble.jpg"
+              class="infoBubble"
+              alt=""
+              title="Accepted file extensions are: .gif, .png, .jpeg, .jpg, and .pdf"
+            />
+            that clearly shows the dimensions of your desired silicone rubber
+            heater, along with any additional holes or cutouts you may require.
+            <br /><br />
+            We will not be able to instantly quote you a price for this heater,
+            and instead will respond with an email quote in approximately one
+            business day.
+          </div>
+        </div>
+      </div>
+      <br />
+      <span class="configTitle" style="width: 115px">&nbsp; </span>
+      <div
+        id="dimWrapper"
+        class="circleShapeShow rectShapeShow"
+        style="display: inline-block; max-width: 380px; width: 100%"
+      >
+        <div id="inner">
+          <div
+            class="rectShapeShow"
+            style="margin-top: 25px; width: 20px; float: left; display: block"
+          >
+            <div
+              id="widthSlider"
+              class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all"
+              aria-disabled="false"
+              style="height: 133.837px"
+            >
+              <a
+                class="ui-slider-handle ui-state-default ui-corner-all"
+                href="#"
+                style="bottom: 97.3684%"
+              ></a>
+            </div>
+          </div>
+          <div style="margin-left: 25px; width: 90%">
+            <div
+              id="lengthSlider"
+              class="rectShapeShow ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+              aria-disabled="false"
+              style="display: block"
+            >
+              <a
+                class="ui-slider-handle ui-state-default ui-corner-all"
+                href="#"
+                style="left: 1.02041%"
+              ></a>
+            </div>
+            <div
+              id="diamSlider"
+              class="circleShapeShow ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+              aria-disabled="false"
+              style="width: 134px; display: none"
+            >
+              <a
+                class="ui-slider-handle ui-state-default ui-corner-all"
+                href="#"
+                style="left: 2.7027%"
+              ></a>
+            </div>
+            <div
+              style="
+                margin-top: 10px;
+                margin-bottom: 2px;
+                height: 132px;
+                width: 340px;
+              "
+            >
+              <div
+                id="dimDiv"
+                style="width: 3.02041%; height: 4.63158%; border-radius: 0%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="closeLeadsTstat"
+    class="ui-accordion ui-widget ui-helper-reset"
+    role="tablist"
+  >
+    <h3
+      class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons"
+      role="tab"
+      id="ui-accordion-closeLeadsTstat-header-0"
+      aria-controls="ui-accordion-closeLeadsTstat-panel-0"
+      aria-selected="true"
+      aria-expanded="true"
+      tabindex="0"
+    >
+      <span
+        class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"
+      ></span>
+      <b>Leads, Closures, and Thermostats</b>
+    </h3>
+    <div
+      class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active"
+      id="ui-accordion-closeLeadsTstat-panel-0"
+      aria-labelledby="ui-accordion-closeLeadsTstat-header-0"
+      role="tabpanel"
+      aria-hidden="false"
+      style="display: block"
+    >
+      <span class="configTitle" style="width: 115px">Leads: </span>
+      <div style="display: inline-block">
+        <div style="display: inline-block">
+          <span
+            id="ctl00_PageContent_leadsRadio"
+            class="leadsRadio radioButton ui-buttonset"
+            ><span id="leadsPTFE"
+              ><input
+                id="ctl00_PageContent_leadsRadio_0"
+                type="radio"
+                name="ctl00$PageContent$leadsRadio"
+                value="PTFE"
+                checked="checked"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_leadsRadio_0"
+                class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">PTFE</span></label
+              ></span
+            ><span id="leadsSil"
+              ><input
+                id="ctl00_PageContent_leadsRadio_1"
+                type="radio"
+                name="ctl00$PageContent$leadsRadio"
+                value="Sil"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_leadsRadio_1"
+                class="ui-button ui-widget ui-state-default ui-button-text-only"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">Silicone Rubber</span></label
+              ></span
+            ><span id="leadsSJO"
+              ><input
+                id="ctl00_PageContent_leadsRadio_2"
+                type="radio"
+                name="ctl00$PageContent$leadsRadio"
+                value="SJO"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_leadsRadio_2"
+                class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">SJO</span></label
+              ></span
+            ></span
+          >
+        </div>
+        <br />
+        <div id="plugsRadioDiv" style="display: none">
+          <span
+            id="ctl00_PageContent_plugsRadio"
+            class="plugsRadio radioButton ui-buttonset"
+            ><span id="plugsNone"
+              ><input
+                id="ctl00_PageContent_plugsRadio_0"
+                type="radio"
+                name="ctl00$PageContent$plugsRadio"
+                value="None"
+                checked="checked"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_plugsRadio_0"
+                class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left"
+                role="button"
+                aria-disabled="false"
+                aria-pressed="true"
+                ><span class="ui-button-text">No Plug</span></label
+              ></span
+            ><span id="plugsTwoProng"
+              ><input
+                id="ctl00_PageContent_plugsRadio_1"
+                type="radio"
+                name="ctl00$PageContent$plugsRadio"
+                value="TwoProng"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_plugsRadio_1"
+                class="ui-button ui-widget ui-state-default ui-button-text-only"
+                role="button"
+                aria-disabled="false"
+                aria-pressed="false"
+                ><span class="ui-button-text">2-Prong</span></label
+              ></span
+            ><span id="plugsThreeProng"
+              ><input
+                id="ctl00_PageContent_plugsRadio_2"
+                type="radio"
+                name="ctl00$PageContent$plugsRadio"
+                value="ThreeProng"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_plugsRadio_2"
+                class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+                role="button"
+                aria-disabled="false"
+                aria-pressed="false"
+                ><span class="ui-button-text">3-Prong</span></label
+              ></span
+            ></span
+          >
+          <br />
+        </div>
+        <div id="leadsDiv" class="infoDiv" style="">
+          <div class="infoImg">
+            <span class="alignHelp"></span>
+            <img
+              id="leadsImg"
+              alt="tstatPic"
+              src="/web/20160425055205im_/http://www.oemheaters.com/configurators/configPictures/SR/Teflon.png"
+            />
+          </div>
+          <div class="infoDesc">
+            <p id="leadsDesc">
+              PTFE-insulated, flexible, stranded, plated copper wire. Lead
+              connections are insulated with vulcanized silicone rubber, which
+              also acts as a strain relief.
+            </p>
+          </div>
+        </div>
+        <br />
+        <div style="float: left; padding-top: 10px">
+          <span class="configTitle" style="width: 115px">Lead Length: </span>
+          <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"
+            ><input
+              name="ctl00$PageContent$leadSpinner"
+              type="text"
+              id="ctl00_PageContent_leadSpinner"
+              class="leadSpinner ui-spinner-input"
+              size="3"
+              maxlength="3"
+              aria-valuemin="1"
+              aria-valuemax="240"
+              autocomplete="off"
+              role="spinbutton"
+            /><a
+              class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-n">▲</span></span
+              ></a
+            ><a
+              class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"
+              tabindex="-1"
+              role="button"
+              aria-disabled="false"
+              ><span class="ui-button-text"
+                ><span class="ui-icon ui-icon-triangle-1-s">▼</span></span
+              ></a
+            ></span
+          >&nbsp;(in.)
+        </div>
+        <div class="lineDiv" style="overflow: hidden">
+          <br />
+        </div>
+      </div>
+      <br />
+      <br />
+      <span class="configTitle" style="width: 115px"
+        >Closure/<br />Attachment:
+      </span>
+      <div style="display: inline-block">
+        <div style="display: inline-block">
+          <span
+            id="ctl00_PageContent_closureRadio"
+            class="closureRadio radioButton ui-buttonset"
+            ><span id="closureNone"
+              ><input
+                id="ctl00_PageContent_closureRadio_0"
+                type="radio"
+                name="ctl00$PageContent$closureRadio"
+                value="None"
+                checked="checked"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_closureRadio_0"
+                class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left"
+                role="button"
+                aria-disabled="false"
+                aria-pressed="true"
+                ><span class="ui-button-text">None</span></label
+              ></span
+            ><span id="closureVelcro"
+              ><input
+                id="ctl00_PageContent_closureRadio_1"
+                type="radio"
+                name="ctl00$PageContent$closureRadio"
+                value="Velcro"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_closureRadio_1"
+                class="ui-button ui-widget ui-state-default ui-button-text-only"
+                role="button"
+                aria-disabled="false"
+                aria-pressed="false"
+                ><span class="ui-button-text">Velcro</span></label
+              ></span
+            ><span id="closureSpring"
+              ><input
+                id="ctl00_PageContent_closureRadio_2"
+                type="radio"
+                name="ctl00$PageContent$closureRadio"
+                value="Spring"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_closureRadio_2"
+                class="ui-button ui-widget ui-state-default ui-button-text-only"
+                role="button"
+                aria-disabled="false"
+                aria-pressed="false"
+                ><span class="ui-button-text">Spring</span></label
+              ></span
+            ><span id="closurePSA"
+              ><input
+                id="ctl00_PageContent_closureRadio_3"
+                type="radio"
+                name="ctl00$PageContent$closureRadio"
+                value="PSA"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_closureRadio_3"
+                class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+                role="button"
+                aria-disabled="false"
+                aria-pressed="false"
+                ><span class="ui-button-text">Adhesive</span></label
+              ></span
+            ></span
+          >
+        </div>
+        <br />
+        <div id="closureDiv" style="display: none">
+          <div class="infoDiv">
+            <div class="infoImg">
+              <span class="alignHelp"></span>
+              <img
+                id="closureImg"
+                alt="tstatPic"
+                src="/web/20160425055205im_/http://www.oemheaters.com/configurators/configPictures/SR/collage.png"
+              />
+            </div>
+            <div class="infoDesc">
+              <p id="closureDesc"></p>
+            </div>
+          </div>
+          <div class="lineDiv">
+            <br />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <span class="configTitle" style="width: 115px">Thermostat: </span>
+      <div style="display: inline-block">
+        <div style="display: inline-block">
+          <span
+            id="ctl00_PageContent_tstatRadio"
+            class="tstatRadio radioButton ui-buttonset"
+            ><span id="tstatNone"
+              ><input
+                id="ctl00_PageContent_tstatRadio_0"
+                type="radio"
+                name="ctl00$PageContent$tstatRadio"
+                value="None"
+                checked="checked"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_tstatRadio_0"
+                class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">None</span></label
+              ></span
+            ><span id="tstatPreset"
+              ><input
+                id="ctl00_PageContent_tstatRadio_1"
+                type="radio"
+                name="ctl00$PageContent$tstatRadio"
+                value="Preset"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_tstatRadio_1"
+                class="ui-button ui-widget ui-state-default ui-button-text-only"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">Preset</span></label
+              ></span
+            ><span id="tstatAdj"
+              ><input
+                id="ctl00_PageContent_tstatRadio_2"
+                type="radio"
+                name="ctl00$PageContent$tstatRadio"
+                value="Adj"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_tstatRadio_2"
+                class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">Adjustable</span></label
+              ></span
+            ></span
+          >
+        </div>
+        <br />
+        <div id="tstatSelectDiv" style="margin-top: 10px; display: none">
+          <input
+            name="ctl00$PageContent$tstatSelection"
+            type="hidden"
+            id="ctl00_PageContent_tstatSelection"
+            class="tstatSelection"
+          />
+          <span style="margin-right: 5px">Thermostat Type: </span>
+          <select
+            id="tstatPresetSelect"
+            class="tstatSelect ui-corner-all"
+            style="display: inline-block"
+          >
+            <option value="OA-50">OA-50</option>
+            <option value="OA-60">OA-60</option>
+            <option value="OA-85">OA-85</option>
+            <option value="OA-110">OA-110</option>
+            <option value="OA-120">OA-120</option>
+            <option value="OA-140">OA-140</option>
+            <option value="OA-150">OA-150</option>
+            <option value="OA-190">OA-190</option>
+            <option value="OA-200">OA-200</option>
+            <option value="OA-250">OA-250</option>
+            <option value="OA-300">OA-300</option>
+          </select>
+          <select
+            id="tstatAdjSelect"
+            class="tstatSelect ui-corner-all"
+            style="display: none"
+          >
+            <option value="A-4059">A-4059</option>
+            <option value="A-4051">A-4051</option>
+            <option value="A-4081">A-4081</option>
+          </select>
+          <div style="margin-top: 10px">
+            <div class="center" style="display: inline-block">
+              <span class="small lineDiv">Low Temp (Heater On):</span>
+              <br />
+              <span id="tstatRoomTemp">Room Temp</span>
+              <div>
+                <b><span id="tstatLow">low</span></b> °F
+              </div>
+            </div>
+            <div class="center" style="display: inline-block">-</div>
+            <div class="center" style="display: inline-block">
+              <span class="small lineDiv">High Temp (Heater Off):</span>
+              <br />
+              <b><span id="tstatHigh">high</span></b> °F
+            </div>
+          </div>
+        </div>
+        <div id="tstatDiv" class="infoDiv" style="display: none">
+          <div class="infoImg">
+            <span class="alignHelp"></span>
+            <img
+              id="tstatImg"
+              alt="tstatPic"
+              src="/web/20160425055205im_/http://www.oemheaters.com/configurators/configPictures/SR/collage.png"
+            />
+          </div>
+          <div class="infoDesc">
+            <p id="tstatDesc"></p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <span class="configTitle" style="width: 115px">Thermocouple:</span>
+      <div style="display: inline-block">
+        <div style="display: inline-block">
+          <span
+            id="ctl00_PageContent_tcRadio"
+            class="tcRadio radioButton ui-buttonset"
+            ><span id="tcNone"
+              ><input
+                id="ctl00_PageContent_tcRadio_0"
+                type="radio"
+                name="ctl00$PageContent$tcRadio"
+                value="None"
+                checked="checked"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_tcRadio_0"
+                class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">None</span></label
+              ></span
+            ><span id="tcJ"
+              ><input
+                id="ctl00_PageContent_tcRadio_1"
+                type="radio"
+                name="ctl00$PageContent$tcRadio"
+                value="J"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_tcRadio_1"
+                class="ui-button ui-widget ui-state-default ui-button-text-only"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">Type J</span></label
+              ></span
+            ><span id="tcK"
+              ><input
+                id="ctl00_PageContent_tcRadio_2"
+                type="radio"
+                name="ctl00$PageContent$tcRadio"
+                value="K"
+                class="ui-helper-hidden-accessible"
+              /><label
+                for="ctl00_PageContent_tcRadio_2"
+                class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+                role="button"
+                aria-disabled="false"
+                ><span class="ui-button-text">Type K</span></label
+              ></span
+            ></span
+          >
+        </div>
+      </div>
+      <br />
+    </div>
+  </div>
+  <div
+    id="powerVoltage"
+    class="ui-accordion ui-widget ui-helper-reset"
+    role="tablist"
+  >
+    <h3
+      class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons"
+      role="tab"
+      id="ui-accordion-powerVoltage-header-0"
+      aria-controls="ui-accordion-powerVoltage-panel-0"
+      aria-selected="true"
+      aria-expanded="true"
+      tabindex="0"
+    >
+      <span
+        class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"
+      ></span>
+      <b>Power, Voltage, and Submit</b>
+    </h3>
+    <div
+      class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active"
+      id="ui-accordion-powerVoltage-panel-0"
+      aria-labelledby="ui-accordion-powerVoltage-header-0"
+      role="tabpanel"
+      aria-hidden="false"
+      style="display: block"
+    >
+      <div style="display: block; padding-bottom: 30px">
+        <div class="center" style="width: 49%; display: inline-block">
+          <span
+            >Max Watt Density:
+            <br />
+            <b><span id="maxWattDens">10</span></b> W/in²
+            <img
+              src="/web/20160425055205im_/http://www.oemheaters.com/Configurators/configPictures/ibubble.jpg"
+              alt="Info"
+              class="infoBubble"
+              title="The durability and performance of a heater depends on selecting the appropriate wattage. Exceeding the maximum allowable watt density for the specified heater size will result in premature heater failure."
+            />
+          </span>
+        </div>
+        <div style="display: inline-block; width: 49%" class="center">
+          <span
+            >Max Amperage:
+            <br />
+            <b><span id="maxAmps">15</span></b> amps
+            <img
+              src="/web/20160425055205im_/http://www.oemheaters.com/Configurators/configPictures/ibubble.jpg"
+              alt="Info"
+              class="infoBubble"
+              title="Amps = Watts / Volts. Silicone rubber heaters have a limit of 15 amps for a single circuit. More circuits are available on request. Thermostats are also limited in the amperage they can tolerate at any particular voltage. "
+            />
+          </span>
+        </div>
+      </div>
+      <span class="configTitle" style="width: 115px">Voltage: </span>
+      <div id="voltage" style="display: inline-block; width: 300px">
+        <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"
+          ><input
+            name="ctl00$PageContent$voltSpinner"
+            type="text"
+            id="ctl00_PageContent_voltSpinner"
+            class="voltSpinner ui-spinner-input"
+            size="4"
+            maxlength="3"
+            aria-valuemin="12"
+            aria-valuemax="480"
+            autocomplete="off"
+            role="spinbutton"
+            aria-valuenow="12"
+          /><a
+            class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"
+            tabindex="-1"
+            role="button"
+            aria-disabled="false"
+            ><span class="ui-button-text"
+              ><span class="ui-icon ui-icon-triangle-1-n">▲</span></span
+            ></a
+          ><a
+            class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"
+            tabindex="-1"
+            role="button"
+            aria-disabled="false"
+            ><span class="ui-button-text"
+              ><span class="ui-icon ui-icon-triangle-1-s">▼</span></span
+            ></a
+          ></span
+        >&nbsp; volts
+        <br />
+        <br />
+        <div
+          id="voltSlider"
+          class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+          aria-disabled="false"
+        >
+          <div
+            class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min"
+            style="width: 0%"
+          ></div>
+          <a
+            class="ui-slider-handle ui-state-default ui-corner-all"
+            href="#"
+            style="left: 0%"
+          ></a>
+        </div>
+        <div id="voltDiv" class="small">
+          <span id="voltMin">12</span>V
+          <span class="floatRight"><span id="voltMax">480</span>V</span>
+        </div>
+      </div>
+      <br />
+      <br />
+      <span class="configTitle" style="width: 115px">Power: </span>
+      <div id="power" style="display: inline-block">
+        <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"
+          ><input
+            name="ctl00$PageContent$powerSpinner"
+            type="text"
+            id="ctl00_PageContent_powerSpinner"
+            class="powerSpinner ui-spinner-input"
+            size="4"
+            maxlength="5"
+            aria-valuemin="10"
+            autocomplete="off"
+            role="spinbutton"
+            aria-valuemax="10"
+            aria-valuenow="10"
+          /><a
+            class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only"
+            tabindex="-1"
+            role="button"
+            aria-disabled="false"
+            ><span class="ui-button-text"
+              ><span class="ui-icon ui-icon-triangle-1-n">▲</span></span
+            ></a
+          ><a
+            class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only"
+            tabindex="-1"
+            role="button"
+            aria-disabled="false"
+            ><span class="ui-button-text"
+              ><span class="ui-icon ui-icon-triangle-1-s">▼</span></span
+            ></a
+          ></span
+        >&nbsp; watts
+        <br />
+        <br />
+        <div style="width: 300px">
+          <div
+            id="powerSlider"
+            class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
+            aria-disabled="false"
+          >
+            <div
+              class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min"
+              style="width: 0%"
+            ></div>
+            <a
+              class="ui-slider-handle ui-state-default ui-corner-all"
+              href="#"
+              style="left: 0%"
+            ></a>
+          </div>
+          <div id="powerDiv" class="small">
+            <span id="powerMin">10W</span>
+            <span id="powerMax" style="float: right">10W</span>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div style="display: inline-block">
+        <span class="configTitle" style="width: 115px">&nbsp; </span>
+        <input
+          type="submit"
+          name="ctl00$PageContent$submitButton"
+          value="Get Price"
+          id="ctl00_PageContent_submitButton"
+          class="submitButton ui-button ui-widget ui-state-default ui-corner-all"
+          role="button"
+          aria-disabled="false"
+        />
+      </div>
+    </div>
+  </div>
+</div>
